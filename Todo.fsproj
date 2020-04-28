@@ -16,8 +16,11 @@
   <ItemGroup>
     <Compile Include="ViewModels/ViewModelBase.fs" />
     <Compile Include="ViewLocator.fs" />
+    
     <Compile Include="ViewModels/MainWindowViewModel.fs" />
     <Compile Include="Views/MainWindow.xaml.fs" />
+    <Compile Include="Views/TodoListView.xaml.fs" />
+    
     <Compile Include="App.xaml.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
