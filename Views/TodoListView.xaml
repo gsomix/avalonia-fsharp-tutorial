@@ -6,9 +6,14 @@
              x:Class="Todo.Views.TodoListView">
     <DockPanel>
         <Button DockPanel.Dock="Bottom">Add an item</Button>
-        <StackPanel>
-            <CheckBox Margin="4">Walk the dog</CheckBox>
-            <CheckBox Margin="4">Buy some milk</CheckBox>
-        </StackPanel>
+        <ItemsControl Items="{Binding Items}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox Margin="4"
+                              IsChecked="{Binding IsChecked}"
+                              Content="{Binding Description}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
     </DockPanel>
 </UserControl>

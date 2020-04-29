@@ -4,6 +4,6 @@
         x:Class="Todo.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Width="200" Height="300"
-        Title="Avalonia Todo">
-    <views:TodoListView/>
+        Title="Avalonia Todo"
+        Content="{Binding List}">
 </Window>
