@@ -3,7 +3,9 @@ namespace Todo.ViewModels
 open System
 open System.Collections.Generic
 open System.Text
+open Todo.Services
 
-type MainWindowViewModel() =
+type MainWindowViewModel(db: Database) =
     inherit ViewModelBase()  
-    member _.Greeting = "Hello World!"
+    
+    member _.List = TodoListViewModel(db.GetItems())
