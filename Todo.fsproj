@@ -19,7 +19,9 @@
     
     <Compile Include="ViewModels/ViewModelBase.fs" />
     <Compile Include="ViewLocator.fs" />
-
+    
+    <Compile Include="ViewModels/AddItemViewModel.fs" />
+    <Compile Include="Views/AddItemView.xaml.fs" />
     <Compile Include="ViewModels/TodoListViewModel.fs" />
     <Compile Include="Views/TodoListView.xaml.fs" />
     <Compile Include="ViewModels/MainWindowViewModel.fs" />

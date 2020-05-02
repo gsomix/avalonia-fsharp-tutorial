@@ -4,7 +4,7 @@ open Avalonia
 open Avalonia.Controls
 open Avalonia.Markup.Xaml
 
-type TodoListView() as this =
+type AddItemView() as this =
     inherit UserControl()
     
     do this.InitializeComponent()
