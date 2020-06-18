@@ -1,6 +1,5 @@
 ﻿namespace Todo.Views
 
-open Avalonia
 open Avalonia.Controls
 open Avalonia.Markup.Xaml
 

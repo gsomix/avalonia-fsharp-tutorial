@@ -1,8 +1,7 @@
-﻿open System
-open Avalonia
-open Avalonia.Controls.ApplicationLifetimes
+﻿open Avalonia
 open Avalonia.Logging.Serilog
 open Avalonia.ReactiveUI
+
 open Todo
 
 let buildAvaloniaApp() =

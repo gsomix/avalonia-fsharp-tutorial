@@ -3,6 +3,7 @@
 open System
 open Avalonia.Controls
 open Avalonia.Controls.Templates
+
 open Todo.ViewModels
 
 type ViewLocator() =

@@ -3,6 +3,7 @@ namespace Todo
 open Avalonia
 open Avalonia.Controls.ApplicationLifetimes
 open Avalonia.Markup.Xaml
+
 open Todo.Services
 open Todo.ViewModels
 open Todo.Views
