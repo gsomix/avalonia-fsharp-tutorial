@@ -1,6 +1,6 @@
 # avalonia-fsharp-tutorial
 
-AvaloniaUI Tutorial in F#
+AvaloniaUI Tutorial in F#. Just don't.
 
 ## Build
 
